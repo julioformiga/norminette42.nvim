@@ -1,4 +1,4 @@
--- 
+--
 --
 
 local M = {}
@@ -12,7 +12,7 @@ function M.getCreatedAndModifiedTimes(currentFile)
   local stat = "stat -c %"
 
   local valuesTable = {}
-  local fileHandle = assert(io.popen( stat.."w " .. currentFile .. awk, "r"))
+  local fileHandle = assert(io.popen( stat.."x " .. currentFile .. awk, "r"))
   local fileHandle1= assert(io.popen( stat.."x " .. currentFile .. awk, "r"))
   local index = 1
   repeat
