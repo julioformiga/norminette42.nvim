@@ -1,14 +1,5 @@
 # Norminette integration for Neovim written in Lua
 
-Norminette Diagnostigs
-![view of norminette diagnostics](https://github.com/hardyrafael17/norminette42.nvim/blob/main/wiki/showcase/showcase1.png)
-
-42 Header
-![view of norminette diagnostics](https://github.com/hardyrafael17/norminette42.nvim/blob/main/wiki/showcase/showcase2.gif)
-
-<br clear="left"/>
-<br />
-
 ## Requirements
 
 [neovim >=0.7.0](https://github.com/neovim/neovim/wiki/Installing-Neovim)
